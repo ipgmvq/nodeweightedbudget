@@ -36,6 +36,10 @@ prizes[zero_prizes] = 0
 weights[0] = prize_to_cost[0] = 0
 ```
 
+# Installation
+
+The package can be installed as usual in Python: with `pip install nodeweightedbudget` command.
+
 # How to use
 
 The package has only one class that is expected to be used: `nodeweightedbudget.Graph(prizes, weights, budget)`. The expected workflow is the following:
