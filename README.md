@@ -32,8 +32,7 @@ prizes[0] = 0
 zero_prizes = np.random.choice(a=range(499), size=199, replace=False) + 1
 zero_prizes.sort()
 prizes[zero_prizes] = 0
-
-weights[0] = prize_to_cost[0] = 0
+weights[0] = 0
 ```
 
 # Installation
