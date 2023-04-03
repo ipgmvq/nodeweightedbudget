@@ -1,6 +1,6 @@
 # Overview
 
-The package helps find an optimal rooted tree in an undirected vertex-weighted graph, which maximizes the total prize given a budget constraint. The algorithm is inspired by the 2018 publication by Bateni MH, Hajiaghayi MT, Liaghat V (doi: 10.1137/15M102695X). The code first finds the "shortest" vertex-weighted rooted tree and then trims its zero-prize and lowest value leaves until its total cost fits the budget.
+The package helps find an optimal rooted tree in an undirected vertex-weighted graph, which maximizes the total prize given a budget constraint. The algorithm is loosely inspired by the 2018 publication by Bateni MH, Hajiaghayi MT, Liaghat V (doi: 10.1137/15M102695X). The code first finds the "shortest" vertex-weighted rooted tree and then trims its zero-prize and lowest value leaves until its total cost fits the budget.
 
 # Sample graph
 
