@@ -37,7 +37,7 @@ weights[0] = 0
 
 # Installation
 
-The package can be installed as usual in Python: with `pip install nodeweightedbudget` command.
+The package can be installed (as usual in Python) with `pip install nodeweightedbudget` command.
 
 # How to use
 
