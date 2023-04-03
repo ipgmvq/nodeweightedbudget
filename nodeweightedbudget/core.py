@@ -100,6 +100,8 @@ class Graph:
             elif graph.vertices[i].distance > distance:
                 graph.vertices[i].distance = distance
                 graph.vertices[i].parent = current
+                graph.find_short_path(
+                    adj_matrix=adj_matrix, depth=depth+1, previous=current, current=i)
         for i, v in graph.vertices.items():
             if v.parent is not None:
                 graph.vertices[v.parent].children.add(i)
